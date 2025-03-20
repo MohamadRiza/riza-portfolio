@@ -1,4 +1,5 @@
 import React from "react";
+import cvFile from "../../public/RIZA_UPDATED_CV_17.03.2025.pdf";
 
 const Footer = () => {
   const navItems = ["Summary", "Tech Stacks", "Projects", "Education", "Skills"];
@@ -96,7 +97,7 @@ const Footer = () => {
             {/* Download CV Button - Fixed alignment */}
             <div className="mt-8">
               <a
-                href="/RIZA_UPDATED_CV_17.03.2025.pdf"
+                href={cvFile}
                 download
                 className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white font-medium rounded-full transition-all duration-300 transform hover:scale-105 group"
               >
@@ -160,7 +161,7 @@ const Footer = () => {
               </a>
             ))}
             <a
-              href="/RIZA_UPDATED_CV_17.03.2025.pdf"
+              href={cvFile}
               download
               className="py-2 px-1 text-sm text-cyan-400 hover:text-purple-400 transition-colors duration-300"
             >
