@@ -40,3 +40,44 @@
   .animate-moving-light-reverse {
     animation: movingLightReverse 4s linear infinite;
   }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  @keyframes glowTitle {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(94, 234, 212, 0.5), 0 0 20px rgba(171, 142, 255, 0.5);
+    }
+    50% {
+      text-shadow: 0 0 15px rgba(94, 234, 212, 0.7), 0 0 30px rgba(171, 142, 255, 0.7);
+    }
+  }
+  
+  .animate-glow-title {
+    animation: glowTitle 3s infinite;
+  }
+
+  @keyframes neonMove {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animate-neon-move {
+    animation: neonMove 8s linear infinite;
+  }

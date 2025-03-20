@@ -1,16 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Summary from "./pages/Summery";
 
 function App() {
   return (
     <div>
       <Navbar />
       <main className="bg-black text-white">
-        <section id="summary" className="p-8">
-          <h2 className="text-2xl font-bold">Summary</h2>
-          <p>This is the summary section.</p>
-        </section>
+        <Summary/>
+        
         <section id="tech-stacks" className="p-8">
           <h2 className="text-2xl font-bold">Tech Stacks</h2>
           <p>This is the tech stacks section.</p>

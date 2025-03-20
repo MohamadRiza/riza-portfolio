@@ -38,7 +38,7 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`sticky top-0 w-full z-50 transition-all duration-300 ${
+            className={`cursor-default sticky top-0 w-full z-50 transition-all duration-300 ${
                 scrolled
                     ? "bg-gray-900/95 backdrop-blur-md shadow-lg py-2"
                     : "bg-gray-900 py-4"
@@ -146,7 +146,7 @@ const Navbar = () => {
                 className={`fixed inset-0 z-10 bg-gray-900/95 backdrop-blur-md transition-all duration-500 ease-in-out ${
                     isOpen
                         ? "opacity-100 pointer-events-auto top-16"
-                        : "opacity-0 pointer-events-none top-full"
+                        : "opacity-0 pointer-events-none top-16"
                 }`}
             >
                 <div className="container mx-auto px-4 py-8">
