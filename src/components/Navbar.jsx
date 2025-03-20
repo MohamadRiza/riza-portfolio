@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import cvFile from "../../public/RIZA_UPDATED_CV_17.03.2025.pdf";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -172,7 +171,7 @@ const Navbar = () => {
                             </a>
                         ))}
                         <a
-                            href={cvFile}
+                            href="./RIZA_UPDATED_CV_17.03.2025.pdf"
                             download
                             onClick={() => setIsOpen(false)}
                             className="mt-6 w-64 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
