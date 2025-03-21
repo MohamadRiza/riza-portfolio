@@ -18,7 +18,7 @@ const Summary = () => {
                 <div className="w-full md:w-1/3 flex justify-center md:justify-start">
                     <div className="relative">
                         <img
-                            src="./Riza_Image.jpg" // Replace with your actual image path
+                            src="./Riza's_Image.jpg" // Replace with your actual image path
                             alt="Riza's Profile"
                             className="object-cover rounded-full border-4 border-gray-700 shadow-lg"
                             style={{ width: "292px", height: "292px" }} // Set width and height directly

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Summary from "./pages/Summery";
+import TechStacks from "./pages/TechStacks";
 
 function App() {
   return (
@@ -9,11 +10,7 @@ function App() {
       <Navbar />
       <main className="bg-black text-white">
         <Summary/>
-        
-        <section id="tech-stacks" className="p-8">
-          <h2 className="text-2xl font-bold">Tech Stacks</h2>
-          <p>This is the tech stacks section.</p>
-        </section>
+        <TechStacks/>
         <section id="projects" className="p-8">
           <h2 className="text-2xl font-bold">Projects</h2>
           <p>This is the projects section.</p>
