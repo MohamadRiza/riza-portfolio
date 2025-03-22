@@ -109,8 +109,15 @@ const TechStacks = () => {
               key={index}
               className="bg-gray-800 p-6 rounded-lg shadow-lg relative overflow-hidden transition-all duration-300 hover:scale-105 group"
             >
-              {/* Card Glow Effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              {/* Automatic Card Glow Effect */}
+              <div
+                className="absolute inset-0 bg-gradient-to-b from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-50 animate-card-glow"
+              ></div>
+
+              {/* Interactive Hover Glow Effect */}
+              <div
+                className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              ></div>
 
               {/* Category Title */}
               <h3 className="text-xl font-semibold text-cyan-400 mb-4">
