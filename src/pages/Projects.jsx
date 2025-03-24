@@ -4,8 +4,8 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "FoodiGrifindo Toys Payroll system (Desktop Application)",
-      image: "./grifindo_payroll.png", // Replace with your actual image URL
+      name: "Grifindo Toys Payroll system (Desktop Application)",
+      image: "./grifindo_payroll.png", // OK
       description:
         "The Grifindo Toys Payroll System is a Windows application developed for my coursework to streamline payroll management. It features CRUD functionalities, automatic salary calculation, and efficient management of employee data, salaries, and attendance records. The system was designed using supporting diagrams like Use Case and ERD for better documentation.",
       technologies: ["C#" ,".NET", "Microsoft SQL Server", "Visual Studio", "Git/GitHub", "SQL"],
@@ -13,82 +13,101 @@ const Projects = () => {
     },
     {
       id: 2,
+      name: "ABC Car Traders Cars Traders Systen (Desktop Application)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    
+    {
+      id: 3,
+      name: "FoodieHub (Online Food Ordering System)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 4,
+      name: "City Taxi (Taxi booking Web Application)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 5,
+      name: "To-Do (Web Application)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 6,
+      name: "E-Book (Online Book Ordering System)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 7,
+      name: "Calculator App (For Android)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 8,
       name: "Malcom Photograpy (Web Application)",
-      image: "./Malcom_Photography.png", // Replace with your actual image URL
+      image: "./Malcom_Photography.png", // OK
       description:
         "The Malcom Photography Website is a web application developed for my coursework to showcase photography services and facilitate customer engagement. It allows users to register/login, view sample photographs, ask questions, and book photographers for events. An admin page enables managing the website, uploading photos, and handling user interactions. (THIS PROJECT ISN'T AVAILABLE ON GITHUB)",
       technologies: ["MySQL", "HTML5", "CSS", "PHP", "JavaScript", "VS Code", "Bootstrap", "Figma (Software)"],
       github: "", // Replace with your actual GitHub link
     },
     {
-      id: 3,
-      name: "ABC Car Traders",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
-      description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
-    },
-    {
-      id: 4,
-      name: "ABC Car Traders",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
-      description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
-    },
-    {
-      id: 5,
-      name: "ABC Car Traders",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
-      description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
-    },
-    {
-      id: 6,
-      name: "ABC Car Traders",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
-      description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
-    },
-    {
-      id: 7,
-      name: "ABC Car Traders",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
-      description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
-    },
-    {
-      id: 8,
-      name: "ABC Car Traders",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
-      description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
-    },
-    {
       id: 9,
-      name: "ABC Car Traders",
+      name: "chatbot (CLI)",
       image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
       description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
+        "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
       github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
     },
     {
       id: 10,
-      name: "ABC Car Traders",
+      name: "Bus Ticket Reservation System (CLI)",
       image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
       description:
-        "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 11,
+      name: "Sampath Food city Sales analysis System (CLI)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
+      technologies: ["C#.NET", "Microsoft SQL Server"],
+      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+    },
+    {
+      id: 12,
+      name: "E-Video Cloud (UI,UX Design)",
+      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      description:
+        "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
       github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
     },

@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Summary from "./pages/Summery";
 import TechStacks from "./pages/TechStacks";
 import Projects from "./pages/Projects";
+import Education from "./pages/Education";
 
 function App() {
   return (
@@ -13,10 +14,7 @@ function App() {
         <Summary/>
         <TechStacks/>
         <Projects/>
-        <section id="education" className="p-8">
-          <h2 className="text-2xl font-bold">Education</h2>
-          <p>This is the education section.</p>
-        </section>
+        <Education/>
         <section id="skills" className="p-8">
           <h2 className="text-2xl font-bold">Skills</h2>
           <p>This is the skills section.</p>
