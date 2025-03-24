@@ -11,7 +11,7 @@ const Education = () => {
       image: "https://www.britishunited.net/wp-content/uploads/2021/11/london-metropolitan-university-image-800s.jpg", // Replace with your actual campus image URL
       website: "https://esoft.lk/esoft-courses/beng-hons-in-software-engineering-top-up-london-met-university-uk/", // Replace with the actual campus website
       description:
-        "Completed advanced coursework in software engineering, focusing on software development, system design, and project management. Gained hands-on experience through real-world projects and industry-relevant case studies.",
+        "I completed the BEng (Hons) in Software Engineering top-up degree at Esoft Metro Campus, certified by London Metropolitan University. This program included two semesters, 12 assessments, and a final project with comprehensive documentation. The course covered key subjects such as Application Development, Advanced Software Engineering, Project Analysis and Practice, and Artificial Intelligence. Successfully completing this program further strengthened my expertise in software engineering and project management.",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Education = () => {
       image: "https://hrmi.lk/wp-content/uploads/2023/06/pearson-1.webp", // Replace with your actual campus image URL
       website: "https://esoft.lk/esoft-courses/pearson-btec-level-5-hnd-in-computing-software-engineering/",
       description:
-        "Focused on practical software engineering skills, including database management, web development, and object-oriented programming. Completed several capstone projects that demonstrated proficiency in software design and testing.",
+        "I completed the Higher National Diploma (HND) in Software Engineering at Esoft Metro Campus, certified by Pearson UK. This two-year program included four semesters, 16 assessments, and a final project. Throughout the course, I gained valuable experience in programming, networking, database management, security, research, SDLC, and web design and development. Successfully completing this program boosted my confidence in building software and web applications, while also enhancing my ability to learn and adapt to new technologies.",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const Education = () => {
       image: "https://www.chieflearningofficer.com/wp-content/uploads/2024/07/AdobeStock_408904066_Editorial_Use_Only.jpeg", // Replace with your actual campus image URL
       website: "https://esoft.lk/esoft-courses/level-3-diploma-in-information-technology/",
       description:
-        "Gained foundational knowledge in IT concepts, including networking, programming, and system administration. Developed basic software applications and completed hands-on lab exercises.",
+        "I completed the Level 03 Diploma in Information Technology at Esoft Metro Campus, certified by Pearson College UK. This course covered programming (Python, C#), networking, hardware, graphics, and database management with SQL and MSSQL. For my final project, I developed a CRUD application using C# .NET WinForms, MSSQL, and Visual Studio, which greatly enhanced my programming skills and practical experience.",
     },
   ];
 
