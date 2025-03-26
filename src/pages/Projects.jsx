@@ -14,7 +14,7 @@ const Projects = () => {
     {
       id: 2,
       name: "ABC Car Traders Cars Traders Systen (Desktop Application)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./ABC_Car.png", // Replace with your actual image URL
       description:
         "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       id: 3,
       name: "FoodieHub (Online Food Ordering System)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "FoodieHub.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -33,7 +33,7 @@ const Projects = () => {
     {
       id: 4,
       name: "City Taxi (Taxi booking Web Application)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./City_Taxi.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -42,7 +42,7 @@ const Projects = () => {
     {
       id: 5,
       name: "To-Do (Web Application)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./To-Do-App.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       id: 6,
       name: "E-Book (Online Book Ordering System)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./E-Book.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -78,7 +78,7 @@ const Projects = () => {
     {
       id: 9,
       name: "chatbot (CLI)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./Chatbot_CLI.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -87,7 +87,7 @@ const Projects = () => {
     {
       id: 10,
       name: "Bus Ticket Reservation System (CLI)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "Bus_Ticket_Reservation_System_CLI.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -105,7 +105,7 @@ const Projects = () => {
     {
       id: 12,
       name: "E-Video Cloud (UI,UX Design)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./E-Video.png", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
