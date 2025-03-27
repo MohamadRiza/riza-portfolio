@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Education from "./pages/Education";
 import SoftSkills from "./pages/SoftSkills";
 import HeroSection from "./pages/HeroSection";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <TechStacks/>
         <Projects/>
         <Education/>
+        <Experience/>
         <SoftSkills/>
       </main>
       <Footer/>
