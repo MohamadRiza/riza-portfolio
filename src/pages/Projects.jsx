@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "Developed a comprehensive car trading system using C#.NET and Microsoft SQL Server to manage car and parts sales, customer orders, and reporting.",
       technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      github: "https://github.com/MohamadRiza/ABC-Car-Traders", 
     },
     
     {
@@ -27,8 +27,8 @@ const Projects = () => {
       image: "FoodieHub.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["MERN Stack", "React with Vite", "TypeScript", "Tailwind CSS", "Shadcn UI", "MongoDB Compass", "Auth0 (Login/Sign up with Google) (API)", "Stripe Payment (API)", "RESTful API", "Postman/Thunder Client", "Git/Github", "Figma (Software)", "VS Code"],
+      github: "https://github.com/MohamadRiza", // Replace with your actual GitHub link
     },
     {
       id: 4,
@@ -36,8 +36,8 @@ const Projects = () => {
       image: "./City_Taxi.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["React JS", "CSS", "BootStrap", "PHP", "MySQL/PhpMyAdmin", "REST APIs","VS Code", "Jira", "Git/Github", "Postman"],
+      github: "https://github.com/MohamadRiza/City-Taxi-Group-Project", // Replace with your actual GitHub link
     },
     {
       id: 5,
@@ -45,8 +45,8 @@ const Projects = () => {
       image: "./To-Do-App.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["React With Vite", "PgSQL", "Express.JS", "Node.JS", "Tailwind CSS", "JavaScript", "Git/Github", "VS Code"],
+      github: "https://github.com/MohamadRiza/todo_app", // Replace with your actual GitHub link
     },
     {
       id: 6,
@@ -54,8 +54,8 @@ const Projects = () => {
       image: "./E-Book.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["C#.NET", "Microsoft SQL Server", "ASP.NET MVC", "CSS", "Git/Github", "Visual Studio"],
+      github: "https://github.com/MohamadRiza/E-Books", // Replace with your actual GitHub link
     },
     {
       id: 7,
@@ -63,8 +63,8 @@ const Projects = () => {
       image: "./Image_Not_Available.jpg", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["XML", "Java"],
+      //Removed Github if found that project maybe add it
     },
     {
       id: 8,
@@ -73,7 +73,7 @@ const Projects = () => {
       description:
         "The Malcom Photography Website is a web application developed for my coursework to showcase photography services and facilitate customer engagement. It allows users to register/login, view sample photographs, ask questions, and book photographers for events. An admin page enables managing the website, uploading photos, and handling user interactions. (THIS PROJECT ISN'T AVAILABLE ON GITHUB)",
       technologies: ["MySQL", "HTML5", "CSS", "PHP", "JavaScript", "VS Code", "Bootstrap", "Figma (Software)"],
-      github: "", // Replace with your actual GitHub link
+      //Removed Github if found that project maybe add it
     },
     {
       id: 9,
@@ -81,8 +81,8 @@ const Projects = () => {
       image: "./Chatbot_CLI.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["Python", "Pycharm", "Json File"],
+      github: "https://github.com/MohamadRiza/Chatbot_py", // Replace with your actual GitHub link
     },
     {
       id: 10,
@@ -90,8 +90,8 @@ const Projects = () => {
       image: "Bus_Ticket_Reservation_System_CLI.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["Java", "InteliJ IDEA"],
+      github: "https://github.com/MohamadRiza/Bus-Ticket-Reservation-CLI-", // Replace with your actual GitHub link
     },
     {
       id: 11,
@@ -99,8 +99,8 @@ const Projects = () => {
       image: "./Image_Not_Available.jpg", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["Python", "Google Colab", "Selenium", "Pytest", "Pandas", "Numpy"],
+      //Removed Github if found that project maybe add it
     },
     {
       id: 12,
@@ -108,8 +108,8 @@ const Projects = () => {
       image: "./E-Video.png", // Replace with your actual image URL
       description:
         "",
-      technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABCCarTraders", // Replace with your actual GitHub link
+      technologies: ["Figma (Software)"],
+      github: "https://github.com/MohamadRiza/E-Video-UI-UX_Figma", // Replace with your actual GitHub link
     },
   ];
 
