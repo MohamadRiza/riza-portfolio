@@ -107,7 +107,7 @@ const TechStacks = () => {
           {techStacks.map((stack, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-6 rounded-lg shadow-lg relative overflow-hidden transition-all duration-300 hover:scale-105 group"
+              className="relative p-6 rounded-2xl shadow-lg bg-gradient-to-b from-gray-800 via-gray-900 to-black overflow-hidden transition-all duration-300 hover:scale-105 group"
             >
               {/* Automatic Card Glow Effect */}
               <div
@@ -120,7 +120,7 @@ const TechStacks = () => {
               ></div>
 
               {/* Category Title */}
-              <h3 className="text-xl font-semibold text-cyan-400 mb-4">
+              <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-4 text-glow">
                 {stack.category}
               </h3>
 
@@ -129,14 +129,20 @@ const TechStacks = () => {
                 {stack.items.map((item, idx) => (
                   <li
                     key={idx}
-                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300"
+                    className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 relative"
                   >
-                    <img
-                      src={item.icon}
-                      alt={`${item.name} logo`}
-                      className="w-6 h-6"
-                    />
-                    <span>{item.name}</span>
+                    {/* Logo */}
+                    <div className="relative">
+                      <img
+                        src={item.icon}
+                        alt={`${item.name} logo`}
+                        className="w-8 h-8 rounded-full transition-transform duration-300 transform hover:scale-110"
+                      />
+                      {/* Logo Glow Effect */}
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/50 via-purple-500/50 to-pink-500/50 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    </div>
+                    {/* Tech Name */}
+                    <span className="text-sm text-glow">{item.name}</span>
                   </li>
                 ))}
               </ul>

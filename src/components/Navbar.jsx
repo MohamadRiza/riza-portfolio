@@ -34,7 +34,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    const navItems = [,"Summary", "Tech Stacks", "Projects", "Education", "experience", "Skills"];
+    const navItems = [,"Summary", "Tech Stacks", "Projects", "Education", "Experience", "Skills"];
 
     return (
         <nav

@@ -37,22 +37,33 @@ const SoftSkills = () => {
           {softSkills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-4 rounded-lg shadow-lg relative overflow-hidden transition-all duration-300 hover:scale-105 group"
+              className="relative p-6 rounded-2xl shadow-lg bg-gradient-to-b from-gray-800 via-gray-900 to-black overflow-hidden transition-all duration-300 hover:scale-105 group"
             >
-              {/* Card Glow Effect */}
+              {/* Automatic Card Glow Effect */}
               <div
-                className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-card-glow"
+                className="absolute inset-0 bg-gradient-to-b from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-50 animate-card-glow"
+              ></div>
+
+              {/* Interactive Hover Glow Effect */}
+              <div
+                className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               ></div>
 
               {/* Skill Icon */}
-              <img
-                src={skill.icon}
-                alt={`${skill.name} icon`}
-                className="w-12 h-12 mx-auto mb-4 object-contain"
-              />
+              <div className="relative w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <img
+                  src={skill.icon}
+                  alt={`${skill.name} icon`}
+                  className="w-full h-full object-contain transition-transform duration-300 transform group-hover:scale-110"
+                />
+                {/* Icon Glow Effect */}
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/50 via-purple-500/50 to-pink-500/50 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
 
               {/* Skill Name */}
-              <p className="text-center text-gray-300 font-medium">{skill.name}</p>
+              <p className="text-center text-sm text-gray-300 font-medium text-glow group-hover:text-white transition-colors duration-300">
+                {skill.name}
+              </p>
             </div>
           ))}
         </div>
