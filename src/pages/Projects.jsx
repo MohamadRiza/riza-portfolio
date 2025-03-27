@@ -60,7 +60,7 @@ const Projects = () => {
     {
       id: 7,
       name: "Calculator App (For Android)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./Image_Not_Available.jpg", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -96,7 +96,7 @@ const Projects = () => {
     {
       id: 11,
       name: "Sampath Food city Sales analysis System (CLI)",
-      image: "https://via.placeholder.com/300x200", // Replace with your actual image URL
+      image: "./Image_Not_Available.jpg", // Replace with your actual image URL
       description:
         "",
       technologies: ["C#.NET", "Microsoft SQL Server"],

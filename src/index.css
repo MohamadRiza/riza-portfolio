@@ -101,3 +101,12 @@
 .animate-card-glow {
   animation: cardGlow 4s infinite;
 }
+
+.text-glow {
+  text-shadow: 0 0 5px rgba(94, 234, 212, 0.3), 0 0 10px rgba(171, 142, 255, 0.3);
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.text-glow:hover {
+  text-shadow: 0 0 10px rgba(94, 234, 212, 0.5), 0 0 20px rgba(171, 142, 255, 0.5);
+}
