@@ -27,7 +27,7 @@ const Projects = () => {
       image: "FoodieHub.png", // Replace with your actual image URL
       description:
         "FoodieHub is a MERN stack web application for online food ordering, developed as my final year project. It features Google authentication via Auth0, Stripe payments, and a modern UI with Tailwind CSS. Customers can search restaurants, place orders, and track statuses, while restaurant owners can manage menus and orders, providing a seamless and secure experience.",
-      technologies: ["MERN Stack", "React with Vite", "TypeScript", "Tailwind CSS", "Shadcn UI", "MongoDB Compass", "Auth0 (Login/Sign up with Google) (API)", "Stripe Payment (API)", "RESTful API", "Postman/Thunder Client", "Git/Github", "Figma (Software)", "VS Code"],
+      technologies: ["MERN Stack", "TypeScript", "Tailwind CSS", "Shadcn UI", "MongoDB Compass", "Auth0 (Login/Sign up with Google) (API)", "Stripe Payment (API)", "RESTful API", "Postman/Thunder Client", "Git/Github", "Figma (Software)", "VS Code"],
       github: "https://github.com/MohamadRiza", // Replace with your actual GitHub link
     },
     {
