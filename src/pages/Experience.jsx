@@ -1,39 +1,30 @@
 import React from "react";
 
 const Experience = () => {
-  const experiences = [
+  const contributions = [
     {
       id: 1,
       role: "Waiting...",
-      company: "Waiting...",
-      location: "Waiting...",
-      duration: "Waiting...",
+      company: "..........",
+      location: "",
+      duration: "",
       description:
-        "Waiting...",
+        "..........",
     },
     {
-        id: 2,
-        role: "Waiting...",
-        company: "Waiting...",
-        location: "Waiting...",
-        duration: "Waiting...",
-        description:
-          "Waiting...",
-      },
-      {
-        id: 3,
-        role: "Waiting...",
-        company: "Waiting...",
-        location: "Waiting...",
-        duration: "Waiting...",
-        description:
-          "Waiting...",
-      },
+      id: 2,
+      role: "Waiting...",
+      company: "..........",
+      location: "..........",
+      duration: "",
+      description:
+        "..........",
+    },
   ];
 
   return (
     <section
-      id="experience"
+      id="projects-and-contributions"
       className="py-16 bg-gray-900 text-white relative overflow-hidden"
     >
       {/* Neon Background Animation */}
@@ -48,15 +39,20 @@ const Experience = () => {
         <h2
           className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-8 text-center animate-glow-title"
         >
-          Experience
+          Expirience
         </h2>
 
-        {/* Experience Cards */}
+        {/* Fresh Graduate Tagline */}
+        <p className="text-gray-400 text-center mb-8">
+          As a fresh graduate, I’m eager to apply my skills and knowledge to real-world challenges.
+        </p>
+
+        {/* Contribution Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {experiences.map((exp) => (
+          {contributions.map((contribution) => (
             <div
-              key={exp.id}
-              className="bg-gray-800 p-6 rounded-lg shadow-lg relative overflow-hidden transition-all duration-300 hover:scale-105 group"
+              key={contribution.id}
+              className="relative p-6 rounded-2xl shadow-lg bg-gradient-to-b from-gray-800 via-gray-900 to-black overflow-hidden transition-all duration-300 hover:scale-105 group"
             >
               {/* Automatic Card Glow Effect */}
               <div
@@ -69,23 +65,23 @@ const Experience = () => {
               ></div>
 
               {/* Role */}
-              <h3 className="text-xl font-semibold text-cyan-400 mb-2 text-glow">
-                {exp.role}
+              <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-2 text-glow">
+                {contribution.role}
               </h3>
 
               {/* Company and Location */}
               <p className="text-gray-300 text-sm mb-2 text-glow">
-                {exp.company} • {exp.location}
+                {contribution.company} • {contribution.location}
               </p>
 
               {/* Duration */}
               <p className="text-gray-400 text-sm mb-4 text-glow">
-                {exp.duration}
+                {contribution.duration}
               </p>
 
               {/* Description */}
               <p className="text-gray-300 leading-relaxed text-glow">
-                {exp.description}
+                {contribution.description}
               </p>
             </div>
           ))}

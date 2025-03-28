@@ -37,27 +37,19 @@ const Summary = () => {
                         className="text-gray-300 leading-relaxed opacity-0 animate-fade-in-up"
                         style={{ animationDelay: "0.2s" }}
                     >
-                        As a motivated and skilled graduate, I have completed a BEng(Hons)
-                        in Software Engineering and am currently awaiting my graduation
-                        ceremony.
+                        As a passionate and driven 21-year-old software engineer , I have dedicated my academic journey to mastering the art of software development. My education began with a Level 3 Diploma in Information Technology , followed by an HND in Software Engineering , and culminated in a BEng(Hons) in Software Engineering —a path I chose because of my deep interest in technology and innovation. By skipping A/L and focusing on practical learning, I was able to complete my degree at a young age, showcasing my commitment to continuous growth and excellence.
                     </p>
                     <p
                         className="text-gray-300 leading-relaxed opacity-0 animate-fade-in-up"
                         style={{ animationDelay: "0.4s" }}
                     >
-                        With a solid foundation in software development and a passion for
-                        innovation, I consistently strive to expand my knowledge and
-                        expertise.
+                        I specialize in Full-Stack Development , with expertise spanning Backend , Frontend , and Quality Assurance . My skill set includes technologies like React.js , Node.js , PHP , MongoDB , Python , and more, as well as tools like Postman , Selenium , and Docker . While I may not yet have formal industry experience, I have actively contributed to various academic and personal projects, such as developing an online food ordering system , a taxi booking platform , and a sales analysis CLI tool . These experiences have honed my problem-solving abilities and prepared me to tackle real-world challenges.
                     </p>
                     <p
                         className="text-gray-300 leading-relaxed opacity-0 animate-fade-in-up"
                         style={{ animationDelay: "0.6s" }}
                     >
-                        My educational journey includes successfully completing an HND in
-                        Software Engineering, which highlights my commitment to continuous
-                        learning. I am eager to contribute my skills to cutting-edge
-                        projects and make meaningful contributions within the dynamic
-                        field of software development.
+                        I am eager to bring my technical expertise, creativity, and passion for innovation to cutting-edge projects. With a strong foundation in software engineering principles and a relentless drive to learn, I’m ready to make meaningful contributions to the dynamic world of software development.
                     </p>
 
                     
