@@ -15,7 +15,7 @@ const Experience = () => {
       id: 2,
       role: "Waiting...",
       company: "..........",
-      location: "..........",
+      location: "",
       duration: "",
       description:
         "..........",
@@ -24,7 +24,7 @@ const Experience = () => {
 
   return (
     <section
-      id="projects-and-contributions"
+      id="experience"
       className="py-16 bg-gray-900 text-white relative overflow-hidden"
     >
       {/* Neon Background Animation */}
