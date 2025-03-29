@@ -5,7 +5,7 @@ const Projects = () => {
     {
       id: 1,
       name: "Grifindo Toys Payroll system (Desktop Application)",
-      image: "./grifindo_payroll.png", // OK
+      image: "./grifindo_payroll.webp", // OK
       description:
         "The Grifindo Toys Payroll System is a Windows application developed for my coursework to streamline payroll management. It features CRUD functionalities, automatic salary calculation, and efficient management of employee data, salaries, and attendance records. The system was designed using supporting diagrams like Use Case and ERD for better documentation.",
       technologies: ["C#" ,".NET", "Microsoft SQL Server", "Visual Studio", "Git/GitHub", "SQL"],
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       id: 2,
       name: "ABC Car Traders Cars Traders Systen (Desktop Application)",
-      image: "./ABC_Car.png", // Replace with your actual image URL
+      image: "./ABC_Car.webp", // Replace with your actual image URL
       description:
         "The ABC Car Traders is a Windows Forms application developed for managing car sales and parts in an e-commerce system. Admins can manage sales, generate reports, handle customer details, and update delivery statuses. Customers can order cars/parts, manage their profile, and track orders, with admins overseeing the entire process for smooth operation.",
       technologies: ["C#.NET", "Microsoft SQL Server"],
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       id: 3,
       name: "FoodieHub (Online Food Ordering System)",
-      image: "FoodieHub.png", // Replace with your actual image URL
+      image: "FoodieHub.webp", // Replace with your actual image URL
       description:
         "FoodieHub is a MERN stack web application for online food ordering, developed as my final year project. It features Google authentication, payments, and a modern UI. Customers can search restaurants, place orders, and track statuses, while restaurant owners can manage menus and orders, providing a seamless and secure experience.",
       technologies: ["MERN Stack", "TypeScript", "Tailwind CSS", "Auth0 (Login/Sign up with Google) (API)", "Stripe Payment (API)", "RESTful API", "Postman/Thunder Client", "Git/Github"],
@@ -33,7 +33,7 @@ const Projects = () => {
     {
       id: 4,
       name: "City Taxi (Taxi booking Web Application)",
-      image: "./City_Taxi.png", // Replace with your actual image URL
+      image: "./City_Taxi.webp", // Replace with your actual image URL
       description:
         "The Taxi Booking System allows three roles: Admin, Taxi Drivers, and Customers. Admins manage user accounts and bookings, while drivers can register, upload car details, and view real-time locations. Customers can book taxis, select pickup and drop-off points on a map, and track nearby taxis. After the ride, customers can rate drivers. The system also sends notifications and tracks locations for a smooth, efficient experience.",
       technologies: ["React JS", "CSS", "BootStrap", "PHP", "MySQL/PhpMyAdmin", "REST APIs","VS Code", "Jira", "Git/Github", "Postman"],
@@ -42,7 +42,7 @@ const Projects = () => {
     {
       id: 5,
       name: "To-Do (Web Application)",
-      image: "./To-Do-App.png", // Replace with your actual image URL
+      image: "./To-Do-App.webp", // Replace with your actual image URL
       description:
         "The Todo App is a simple application designed to learn PgSQL and RESTful API. It features a Home page with a welcome message, an About page, and a Todo page. The Todo page includes a heading, description, and an Add button. It supports CRUD operations for managing todos, all functioning through a RESTful API. ",
       technologies: ["React With Vite", "PgSQL", "Express.JS", "Node.JS", "Tailwind CSS", "JavaScript", "Git/Github", "VS Code"],
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       id: 6,
       name: "E-Book (Online Book Ordering System)",
-      image: "./E-Book.png", // Replace with your actual image URL
+      image: "./E-Book.webp", // Replace with your actual image URL
       description:
         "E-Book is an online book ordering system developed for my coursework, featuring two roles: admin and customer. Admins can manage books, view order histories, and utilize AI for sales analysis. Customers can browse, order books, manage profiles, and leave comments/reviews on books. The system focuses on secure, efficient book sales management.",
       technologies: ["C#.NET", "Microsoft SQL Server", "ASP.NET MVC", "CSS", "Git/Github", "Visual Studio"],
@@ -60,7 +60,7 @@ const Projects = () => {
     {
       id: 7,
       name: "Calculator App (For Android)",
-      image: "./Image_Not_Available.jpg", // Replace with your actual image URL
+      image: "./Image_Not_Available.webp", // Replace with your actual image URL
       description:
         "The Calculator App is a simple app developed using XML, Java, and Android Studio. It serves as a learning project to explore XML for layout design, Java for functionality, and Android Studio for app development. The app performs basic calculations and is designed to enhance skills in these technologies.",
       technologies: ["XML", "Java"],
@@ -69,7 +69,7 @@ const Projects = () => {
     {
       id: 8,
       name: "Malcom Photograpy (Web Application)",
-      image: "./Malcom_Photography.png", // OK
+      image: "./Malcom_Photography.webp", // OK
       description:
         "The Malcom Photography Website is a web application developed for my coursework to showcase photography services and facilitate customer engagement. It allows users to register/login, view sample photographs, ask questions, and book photographers for events. An admin page enables managing the website, uploading photos, and handling user interactions. (THIS PROJECT ISN'T AVAILABLE ON GITHUB)",
       technologies: ["MySQL", "HTML5", "CSS", "PHP", "JavaScript", "VS Code", "Bootstrap", "Figma (Software)"],
@@ -78,7 +78,7 @@ const Projects = () => {
     {
       id: 9,
       name: "chatbot (CLI)",
-      image: "./Chatbot_CLI.png", // Replace with your actual image URL
+      image: "./Chatbot_CLI.webp", // Replace with your actual image URL
       description:
         "The Chatbot (CLI) is a Python-based command-line interface application that lets users interact with a chatbot. The chatbot retrieves answers from a JSON file and prompts users to teach it if it doesn’t know the answer. When users teach the chatbot, the question and answer are stored in a pending state until the admin confirms them. This system simulates a learning process, where the chatbot gradually improves based on user input and admin approval.",
       technologies: ["Python", "Pycharm", "Json File"],
@@ -87,7 +87,7 @@ const Projects = () => {
     {
       id: 10,
       name: "Bus Ticket Reservation System (CLI)",
-      image: "Bus_Ticket_Reservation_System_CLI.png", // Replace with your actual image URL
+      image: "Bus_Ticket_Reservation_System_CLI.webp", // Replace with your actual image URL
       description:
         "The Bus Ticket Reservation System is a CLI application developed for academic coursework to simplify bus ticket booking and management. Customers can select routes, book seats, cancel reservations, and access other features. The admin module allows viewing reserved seats, managing customer details, and monitoring bus routes and schedules.",
       technologies: ["Java", "InteliJ IDEA"],
@@ -96,7 +96,7 @@ const Projects = () => {
     {
       id: 11,
       name: "Sampath Food city Sales analysis System (CLI)",
-      image: "./Image_Not_Available.jpg", // Replace with your actual image URL
+      image: "./Image_Not_Available.webp", // Replace with your actual image URL
       description:
         "The Sales Analysis System is a Python-based CLI application that analyzes sales data, generates graphs, and provides predictive analysis. Users can upload sales documents, and the system forecasts future trends using OOP principles. Selenium and PyTest were used for testing, ensuring functionality and reliability. The project focuses on data analysis, visualization, and automated testing.",
       technologies: ["Python", "Google Colab", "Selenium", "Pytest", "Pandas", "Numpy"],
@@ -105,7 +105,7 @@ const Projects = () => {
     {
       id: 12,
       name: "E-Video Cloud (UI,UX Design)",
-      image: "./E-Video.png", // Replace with your actual image URL
+      image: "./E-Video.webp", // Replace with your actual image URL
       description:
         "E-Video Cloud is a UI/UX design project aimed at creating a platform similar to YouTube. Developed using Figma, it includes 20-25 user interfaces, covering key pages like the homepage, settings, profile, and video player. The project focuses on improving user experience, ensuring smooth navigation, intuitive layouts, and visually appealing designs, all based on best UI/UX principles.",
       technologies: ["Figma (Software)"],
