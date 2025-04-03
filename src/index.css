@@ -110,3 +110,13 @@
 .text-glow:hover {
   text-shadow: 0 0 10px rgba(94, 234, 212, 0.5), 0 0 20px rgba(171, 142, 255, 0.5);
 }
+
+/* index.css or global.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enable momentum scrolling for mobile */
+body {
+  -webkit-overflow-scrolling: touch;
+}
