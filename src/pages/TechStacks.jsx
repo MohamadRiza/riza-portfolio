@@ -10,6 +10,7 @@ const TechStacks = () => {
         { name: "PHP", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
         { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
         { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+        { name: "Wordpress", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" },
         { name: "MVC", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST2WwX0poNAHwseifMFuao3DCtd0OWxnwzXA&s" }, // Placeholder for MVC
       ],
     },
