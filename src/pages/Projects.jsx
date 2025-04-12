@@ -111,6 +111,15 @@ const Projects = () => {
       technologies: ["Figma (Software)"],
       github: "https://github.com/MohamadRiza/E-Video-UI-UX_Figma", // Replace with your actual GitHub link
     },
+    {
+      id: 13,
+      name: "Blog Site WP(Wordpress)",
+      image: "./Blog_WP.webp", // Replace with your actual image URL
+      description:
+        "I developed a simple blog website using WordPress to improve my skills. It was built with Elementor, Astra, and various plugins. This project was done by following a YouTube tutorial to gain hands-on experience, just like learning from a senior developer.",
+      technologies: ["Wordpress", "Elementor", "Astra", "Plugins"],
+      github: "https://github.com/MohamadRiza/WP_Blog"
+    },
   ];
 
   const [selectedProject, setSelectedProject] = useState(null);
