@@ -58,7 +58,7 @@ const HeroSection = () => {
         <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
           {/* View CV Button */}
           <a
-            href="./RIZA_UPDATED_CV_17.03.2025.pdf"
+            href="./RIZA_UPDATED_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white font-medium rounded-full transition-all duration-300 transform hover:scale-105 group"
@@ -81,7 +81,7 @@ const HeroSection = () => {
 
           {/* Download CV Button */}
           <a
-            href="./RIZA_UPDATED_CV_17.03.2025.pdf"
+            href="./RIZA_UPDATED_CV.pdf"
             download
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white font-medium rounded-full transition-all duration-300 transform hover:scale-105 group"
           >

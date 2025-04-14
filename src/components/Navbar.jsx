@@ -90,7 +90,7 @@ const Navbar = () => {
                         );
                     })}
                     <a
-                        href="./RIZA_UPDATED_CV_17.03.2025.pdf"
+                        href="./RIZA_UPDATED_CV.pdf"
                         download
                         className="relative inline-flex items-center px-6 py-2 overflow-hidden text-white font-medium rounded-full group"
                     >
@@ -171,7 +171,7 @@ const Navbar = () => {
                             </a>
                         ))}
                         <a
-                            href="./RIZA_UPDATED_CV_17.03.2025.pdf"
+                            href="./RIZA_UPDATED_CV.pdf"
                             download
                             onClick={() => setIsOpen(false)}
                             className="mt-6 w-64 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
