@@ -58,7 +58,7 @@ const Navbar = () => {
                 {/* Logo with glowing background */}
                 <div className="relative group">
                     <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 hover:from-pink-500 hover:via-purple-500 hover:to-cyan-400 transition-all duration-700 z-10 relative">
-                        Riza's Portfolio
+                        {'<'}Riza's Portfolio{'/>'}
                     </h1>
                     {/* Glowing background animation */}
                     <div

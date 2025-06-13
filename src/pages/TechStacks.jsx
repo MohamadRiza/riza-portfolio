@@ -11,7 +11,7 @@ const TechStacks = () => {
         { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
         { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
         { name: "Wordpress", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" },
-        { name: "MVC", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST2WwX0poNAHwseifMFuao3DCtd0OWxnwzXA&s" }, // Placeholder for MVC
+        { name: "Next JS", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdl8u81goWJcMdQlW9PbbFW6GQy1x07JPdJeoVrQtfyEtEKbvECeB1t5PPVMzpc4Pl9tE&usqp=CAU" }, // Placeholder for MVC
       ],
     },
     {
@@ -28,6 +28,7 @@ const TechStacks = () => {
         { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
         { name: "MS-SQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
         { name: "NO-SQL (MongoDB)", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+        { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
       ],
     },
     {
@@ -45,6 +46,7 @@ const TechStacks = () => {
         { name: "RESTful API", icon: "https://img.favpng.com/12/14/21/logo-application-programming-interface-computer-programming-application-software-png-favpng-GLG35f9UpqmCUDS0w0zj4y9vE.jpg" }, // Placeholder
         { name: "Firebase (Beginner)", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
         { name: "GCP (Beginner)", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" },
+        {name: "Supabase (Beginner)", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLt5RQx6V1W6XXJcczgwNbzbdGyfHNCYtSCQ&s" }, // Placeholder
       ],
     },
     {
