@@ -123,7 +123,7 @@ const Projects = () => {
     {
       id: 14,
       name: "Online Vehicle Sales System (Web Application)...(DEVELOPMENT STAGE)",
-      image: "./Image_Not_Available.webp", // Replace with your actual image URL
+      image: "./Vehicle_APP.webp", // Replace with your actual image URL
       description:
         "STILL DEVELOPMENT STAGE...",
       technologies: ["Next.js", "Tailwind CSS", "Supabase", "GEMINI API", "Prisma", "PgSQL", "Clerk API (For Authentication)", "Shadcn UI"],
