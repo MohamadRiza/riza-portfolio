@@ -8,7 +8,14 @@ const Projects = () => {
       image: "./grifindo_payroll.webp", // OK
       description:
         "The Grifindo Toys Payroll System is a Windows application developed for my coursework to streamline payroll management. It features CRUD functionalities, automatic salary calculation, and efficient management of employee data, salaries, and attendance records. The system was designed using supporting diagrams like Use Case and ERD for better documentation.",
-      technologies: ["C#" ,".NET", "Microsoft SQL Server", "Visual Studio", "Git/GitHub", "SQL"],
+      technologies: [
+        "C#",
+        ".NET",
+        "Microsoft SQL Server",
+        "Visual Studio",
+        "Git/GitHub",
+        "SQL",
+      ],
       github: "https://github.com/MohamadRiza/Grifindo-Payroll-System", // Replace with your actual GitHub link
     },
     {
@@ -18,16 +25,25 @@ const Projects = () => {
       description:
         "The ABC Car Traders is a Windows Forms application developed for managing car sales and parts in an e-commerce system. Admins can manage sales, generate reports, handle customer details, and update delivery statuses. Customers can order cars/parts, manage their profile, and track orders, with admins overseeing the entire process for smooth operation.",
       technologies: ["C#.NET", "Microsoft SQL Server"],
-      github: "https://github.com/MohamadRiza/ABC-Car-Traders", 
+      github: "https://github.com/MohamadRiza/ABC-Car-Traders",
     },
-    
+
     {
       id: 3,
       name: "FoodieHub (Online Food Ordering System)",
       image: "FoodieHub.webp", // Replace with your actual image URL
       description:
         "FoodieHub is a MERN stack web application for online food ordering, developed as my final year project. It features Google authentication, payments, and a modern UI. Customers can search restaurants, place orders, and track statuses, while restaurant owners can manage menus and orders, providing a seamless and secure experience.",
-      technologies: ["MERN Stack", "TypeScript", "Tailwind CSS", "Auth0 (Login/Sign up with Google) (API)", "Stripe Payment (API)", "RESTful API", "Postman/Thunder Client", "Git/Github"],
+      technologies: [
+        "MERN Stack",
+        "TypeScript",
+        "Tailwind CSS",
+        "Auth0 (Login/Sign up with Google) (API)",
+        "Stripe Payment (API)",
+        "RESTful API",
+        "Postman/Thunder Client",
+        "Git/Github",
+      ],
       github: "https://github.com/MohamadRiza", // Replace with your actual GitHub link
     },
     {
@@ -36,7 +52,18 @@ const Projects = () => {
       image: "./City_Taxi.webp", // Replace with your actual image URL
       description:
         "The Taxi Booking System allows three roles: Admin, Taxi Drivers, and Customers. Admins manage user accounts and bookings, while drivers can register, upload car details, and view real-time locations. Customers can book taxis, select pickup and drop-off points on a map, and track nearby taxis. After the ride, customers can rate drivers. The system also sends notifications and tracks locations for a smooth, efficient experience.",
-      technologies: ["React JS", "CSS", "BootStrap", "PHP", "MySQL/PhpMyAdmin", "REST APIs","VS Code", "Jira", "Git/Github", "Postman"],
+      technologies: [
+        "React JS",
+        "CSS",
+        "BootStrap",
+        "PHP",
+        "MySQL/PhpMyAdmin",
+        "REST APIs",
+        "VS Code",
+        "Jira",
+        "Git/Github",
+        "Postman",
+      ],
       github: "https://github.com/MohamadRiza/City-Taxi-Group-Project", // Replace with your actual GitHub link
     },
     {
@@ -45,7 +72,16 @@ const Projects = () => {
       image: "./To-Do-App.webp", // Replace with your actual image URL
       description:
         "The Todo App is a simple application designed to learn PgSQL and RESTful API. It features a Home page with a welcome message, an About page, and a Todo page. The Todo page includes a heading, description, and an Add button. It supports CRUD operations for managing todos, all functioning through a RESTful API. ",
-      technologies: ["React With Vite", "PgSQL", "Express.JS", "Node.JS", "Tailwind CSS", "JavaScript", "Git/Github", "VS Code"],
+      technologies: [
+        "React With Vite",
+        "PgSQL",
+        "Express.JS",
+        "Node.JS",
+        "Tailwind CSS",
+        "JavaScript",
+        "Git/Github",
+        "VS Code",
+      ],
       github: "https://github.com/MohamadRiza/todo_app", // Replace with your actual GitHub link
     },
     {
@@ -54,7 +90,14 @@ const Projects = () => {
       image: "./E-Book.webp", // Replace with your actual image URL
       description:
         "E-Book is an online book ordering system developed for my coursework, featuring two roles: admin and customer. Admins can manage books, view order histories, and utilize AI for sales analysis. Customers can browse, order books, manage profiles, and leave comments/reviews on books. The system focuses on secure, efficient book sales management.",
-      technologies: ["C#.NET", "Microsoft SQL Server", "ASP.NET MVC", "CSS", "Git/Github", "Visual Studio"],
+      technologies: [
+        "C#.NET",
+        "Microsoft SQL Server",
+        "ASP.NET MVC",
+        "CSS",
+        "Git/Github",
+        "Visual Studio",
+      ],
       github: "https://github.com/MohamadRiza/E-Books", // Replace with your actual GitHub link
     },
     {
@@ -72,7 +115,16 @@ const Projects = () => {
       image: "./Malcom_Photography.webp", // OK
       description:
         "The Malcom Photography Website is a web application developed for my coursework to showcase photography services and facilitate customer engagement. It allows users to register/login, view sample photographs, ask questions, and book photographers for events. An admin page enables managing the website, uploading photos, and handling user interactions. (THIS PROJECT ISN'T AVAILABLE ON GITHUB)",
-      technologies: ["MySQL", "HTML5", "CSS", "PHP", "JavaScript", "VS Code", "Bootstrap", "Figma (Software)"],
+      technologies: [
+        "MySQL",
+        "HTML5",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "VS Code",
+        "Bootstrap",
+        "Figma (Software)",
+      ],
       //Removed Github if found that project maybe add it
     },
     {
@@ -99,7 +151,14 @@ const Projects = () => {
       image: "./Image_Not_Available.webp", // Replace with your actual image URL
       description:
         "The Sales Analysis System is a Python-based CLI application that analyzes sales data, generates graphs, and provides predictive analysis. Users can upload sales documents, and the system forecasts future trends using OOP principles. Selenium and PyTest were used for testing, ensuring functionality and reliability. The project focuses on data analysis, visualization, and automated testing.",
-      technologies: ["Python", "Google Colab", "Selenium", "Pytest", "Pandas", "Numpy"],
+      technologies: [
+        "Python",
+        "Google Colab",
+        "Selenium",
+        "Pytest",
+        "Pandas",
+        "Numpy",
+      ],
       //Removed Github if found that project maybe add it
     },
     {
@@ -118,16 +177,52 @@ const Projects = () => {
       description:
         "I developed a simple blog website using WordPress to improve my skills. It was built with Elementor, Astra, and various plugins. This project was done by following a YouTube tutorial to gain hands-on experience, just like learning from a senior developer.",
       technologies: ["Wordpress", "Elementor", "Astra", "Plugins"],
-      github: "https://github.com/MohamadRiza/WP_Blog"
+      github: "https://github.com/MohamadRiza/WP_Blog",
     },
     {
       id: 14,
       name: "Online Vehicle Sales System (Web Application)...(DEVELOPMENT STAGE)",
       image: "./Vehicle_APP.webp", // Replace with your actual image URL
+      description: "STILL DEVELOPMENT STAGE...",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "Supabase",
+        "GEMINI API",
+        "Prisma",
+        "PgSQL",
+        "Clerk API (For Authentication)",
+        "Shadcn UI",
+      ],
+      github: "https://github.com/MohamadRiza/Vehicle_Next",
+    },
+    {
+      id: 15,
+      name: "DSMS Manpower Agencies (Web Application)..(DEPLOYMENT IS PENDING)",
+      image: "./Image_Not_Available.webp", // Replace with your actual image URL
       description:
-        "STILL DEVELOPMENT STAGE...",
-      technologies: ["Next.js", "Tailwind CSS", "Supabase", "GEMINI API", "Prisma", "PgSQL", "Clerk API (For Authentication)", "Shadcn UI"],
-      github: "https://github.com/MohamadRiza/Vehicle_Next"
+        "Developed a web application targeting Sri Lanka’s top recruitment agencies and foreign employment agencies. This is a highly advanced system where customers can chat with AI, apply for jobs, filter job listings, read detailed descriptions, and contact agencies directly. Administrators can view messages and inquiries, manage (CRUD) job postings, generate AI-powered job descriptions, manage admin credentials, track applicants for each position, and much more.",
+      technologies: [
+        "MERN Stack",
+        "Tailwind CSS",
+        "RESTful API",
+        "Postman",
+        "Git/Github",
+        "Cloudflare API",
+        "GEMINI API",
+        "JWT",
+        "Cloudinary API",
+      ],
+      github: "https://github.com/MohamadRiza/Diamond_Star_Frontend",
+    },
+    {
+      id: 16,
+      name: "NEXASOFT IT Solutions",
+      image: "./NexaSoft.webp", // Replace with your actual image URL
+      description:
+        "Nexasoft is my company, which I run part-time with a few friends. Together, we developed the Nexasoft website. I also develop various software solutions and web applications, which we sell as part of our part-time work.",
+      technologies: ["React.js", "Tailwind CSS", "Shadcn UI", "Vercel", "Git/Github", "Godaddy", "SEO", "Google Search Console"],
+        github: "https://www.nexasoft.site/", // Replace with your actual GitHub link
     },
   ];
 
@@ -140,16 +235,12 @@ const Projects = () => {
     >
       {/* Neon Background Animation */}
       <div className="absolute inset-0 pointer-events-none">
-        <div
-          className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-3xl animate-neon-move"
-        ></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-3xl animate-neon-move"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Title with Glowing Animation */}
-        <h2
-          className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-8 text-center animate-glow-title"
-        >
+        <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-8 text-center animate-glow-title">
           Projects
         </h2>
 
@@ -161,9 +252,7 @@ const Projects = () => {
               className="bg-gray-800 p-6 rounded-lg shadow-lg relative overflow-hidden transition-all duration-300 hover:scale-105 group"
             >
               {/* Card Glow Overlay */}
-              <div
-                className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-card-glow"
-              ></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-card-glow"></div>
 
               {/* Project Image */}
               <img
@@ -224,15 +313,31 @@ const Projects = () => {
                 className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors duration-300"
                 onClick={() => setSelectedProject(null)}
               >
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               </button>
 
               {/* Modal Content */}
-              <h3 className="text-xl font-semibold text-cyan-400 mb-4">{selectedProject.name}</h3>
-              <p className="text-gray-300 mb-4">{selectedProject.description}</p>
-              <h4 className="text-lg font-medium text-cyan-400 mb-2">Technologies Used:</h4>
+              <h3 className="text-xl font-semibold text-cyan-400 mb-4">
+                {selectedProject.name}
+              </h3>
+              <p className="text-gray-300 mb-4">
+                {selectedProject.description}
+              </p>
+              <h4 className="text-lg font-medium text-cyan-400 mb-2">
+                Technologies Used:
+              </h4>
               <ul className="flex flex-wrap gap-2">
                 {selectedProject.technologies.map((tech, index) => (
                   <li

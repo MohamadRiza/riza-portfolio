@@ -4,22 +4,13 @@ const Experience = () => {
   const contributions = [
     {
       id: 1,
-      role: "Waiting...",
-      company: "..........",
-      location: "",
-      duration: "",
+      role: "Founder & Developer",
+      company: "Nexasoft",
+      location: "Hybrid",
+      duration: "Jan 2025 - Present",
       description:
-        "..........",
-    },
-    {
-      id: 2,
-      role: "Waiting...",
-      company: "..........",
-      location: "",
-      duration: "",
-      description:
-        "..........",
-    },
+        "My role: When we find our next project, I first arrange for all four of us to meet in person (including me). Even though our team is small, our dreams are big. During these meetings, we discuss the project in detail — what needs to be done and how we should approach it. As the founder, I divide the work among my friends. I usually handle most of the development and deployment myself, while assigning tasks to others based on their skills and what they can do best.",
+    }
   ];
 
   return (
