@@ -1,16 +1,52 @@
 import React from "react";
 
+// Example: import your logo
+import NexasoftLogo from "/Nexasoft.jpg";
+import MaxItSolutionsLogo from "/Max_IT.png";
+import FreelanceLogo from "/freelancer.jpg";
+
 const Experience = () => {
   const contributions = [
     {
-      id: 1,
+      id: 1, //OK
       role: "Founder & Developer",
       company: "Nexasoft",
       location: "Hybrid",
       duration: "Jan 2025 - Present",
+      logo: NexasoftLogo, // Add logo path here
       description:
-        "My role: When we find our next project, I first arrange for all four of us to meet in person (including me). Even though our team is small, our dreams are big. During these meetings, we discuss the project in detail — what needs to be done and how we should approach it. As the founder, I divide the work among my friends. I usually handle most of the development and deployment myself, while assigning tasks to others based on their skills and what they can do best.",
-    }
+        "At Nexasoft, I am the founder of our 4-member team. I primarily handle development and deployment, while also assigning tasks to team members using Jira. Additionally, I participate in project discovery, testing, and team meetings to discuss project details and strategies.",
+    },
+    {
+      id: 2,
+      role: "Full-Stack Developer",
+      company: "MAX IT Solutions (PVT) LTD",
+      location: "Hybrid",
+      duration: "Oct 2024 - Jul 2025",
+      logo: MaxItSolutionsLogo, // Add logo path here
+      description:
+        "As a Full-Stack Developer at MAX IT Solutions, I primarily developed web-based and desktop applications, handling both frontend and backend tasks to deliver complete, functional solutions.",
+    },
+    {
+      id: 3,
+      role: "Technical Support Engineer",
+      company: "MAX IT Solutions (PVT) LTD",
+      location: "Hybrid",
+      duration: "May 2024 - Oct 2024",
+      logo: MaxItSolutionsLogo, // Add logo path here
+      description:
+        "As a Technical Support Engineer at MAX IT Solutions, I provided technical assistance to clients, troubleshooting hardware and software issues, ensuring smooth system operations, and maintaining high client satisfaction.",
+    },
+    {
+      id: 4,
+      role: "Software Engineer (Web & Desktop Applications)",
+      company: "Freelance Online/Offline",
+      location: "Part-Time",
+      duration: "Mar 2024 - Present",
+      logo: FreelanceLogo, // Add logo path here
+      description:
+        "As a Freelance Software Engineer, I develop and deliver web and desktop applications for clients, working both online through platforms like Upwork, Freelancer and offline directly with clients, with most projects handled offline.",
+    },
   ];
 
   return (
@@ -30,7 +66,7 @@ const Experience = () => {
         <h2
           className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-8 text-center animate-glow-title"
         >
-          Expirience
+          Experience
         </h2>
 
         {/* Fresh Graduate Tagline */}
@@ -54,6 +90,17 @@ const Experience = () => {
               <div
                 className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               ></div>
+
+              {/* Company Logo */}
+              {contribution.logo && (
+                <div className="flex justify-center mb-4">
+                  <img
+                    src={contribution.logo}
+                    alt={`${contribution.company} logo`}
+                    className="rounded-lg h-40 w-52 object-cover shadow-md transform transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+              )}
 
               {/* Role */}
               <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 mb-2 text-glow">
