@@ -31,7 +31,7 @@ const Experience = () => {
       id: 3,
       role: "Technical Support Engineer",
       company: "MAX IT Solutions (PVT) LTD",
-      location: "Hybrid",
+      location: "Onsite",
       duration: "May 2024 - Oct 2024",
       logo: MaxItSolutionsLogo, // Add logo path here
       description:
