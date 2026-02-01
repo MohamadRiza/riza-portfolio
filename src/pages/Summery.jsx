@@ -37,7 +37,7 @@ const Summary = () => {
                         className="text-gray-300 leading-relaxed opacity-0 animate-fade-in-up"
                         style={{ animationDelay: "0.2s" }}
                     >
-                        As a passionate and driven 21-year-old software engineer , I have dedicated my academic journey to mastering the art of software development. My education began with a Level 3 Diploma in Information Technology , followed by an HND in Software Engineering , and culminated in a BEng(Hons) in Software Engineering —a path I chose because of my deep interest in technology and innovation. By skipping A/L and focusing on practical learning, I was able to complete my degree at a young age, showcasing my commitment to continuous growth and excellence.
+                        As a passionate and driven 21-year-old software engineer , I have dedicated my academic journey to mastering the art of software development. My education began with a Level 3 Diploma in Information Technology , followed by an HND in Software Engineering , and culminated in a BEng(Hons) in Software Engineering - a path I chose because of my deep interest in technology and innovation. By skipping A/L and focusing on practical learning, I was able to complete my degree at a young age, showcasing my commitment to continuous growth and excellence.
                     </p>
                     <p
                         className="text-gray-300 leading-relaxed opacity-0 animate-fade-in-up"

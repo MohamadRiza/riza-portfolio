@@ -217,6 +217,25 @@ const Projects = () => {
     },
     {
       id: 16,
+      name: "Happy Time PVT LTD (Wholesale and Retail Dealer (UAE and Sri Lanka)) (Web Application)",
+      image: "./HappyTime.jpg", // Replace with your actual image URL
+      description:
+        "Developed a full-scale web application for Happy Time (PVT) LTD, a watch wholesale and retail company operating in Sri Lanka and Dubai (UAE). The platform was built using the MERN stack with Tailwind CSS and RESTful APIs, focusing heavily on security and scalability rather than UI alone. Key integrations include JWT-based authentication, Google reCAPTCHA v3, Cloudinary for media management, and Tawk.to AI chatbot with real-time chat functionality. The application consists of 20+ pages, including a comprehensive admin panel, making it a large and challenging project to manage and deliver successfully.",
+      technologies: [
+        "MERN Stack",
+        "Tailwind CSS",
+        "RESTful API",
+        "Postman",
+        "Git/Github",
+        "Google V3 Captcha",
+        "Tawk.to AI and Real-time Chat",
+        "JWT",
+        "Cloudinary API",
+      ],
+      github: "https://github.com/MohamadRiza/Happy_Time_Frontend",
+    },
+    {
+      id: 17,
       name: "NEXASOFT IT Solutions",
       image: "./NexaSoft.webp", // Replace with your actual image URL
       description:
